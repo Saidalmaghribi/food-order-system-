@@ -1,0 +1,176 @@
+/*start global style*/
+body{
+	padding: 0;
+	margin: 0;
+	background-image: url("../images/backgound.jpg");
+}
+ul{
+	list-style: none;
+}
+a{
+text-decoration: none;
+}
+/*start header style*/
+.header{
+	
+	height: 400px;
+	margin-bottom: 150px;
+}
+.header .nav-menu{
+	background: #fff;
+    height: 238px;
+    margin-bottom: 40px;
+    border-bottom-right-radius: 98%;
+    padding-top: 40px;
+}
+.header .nav-menu .navbar-right{
+	margin-right: 40px;
+}
+.header .nav-menu .brand{
+	   position: relative;
+    left: 20px;
+    top: 57px;
+    font-family: 'Dancing Script', cursive;
+}
+.header .nav-menu .brand h2{
+	   font-size: 40px;
+    color: #f7b123;
+    font-family: 'Dancing Script', cursive;
+}
+.header .nav-menu .brand h2:before{
+	    content: "";
+    height: 4px;
+    width: 313px;
+    border-style: solid;
+    border-width: 16px;
+    color: #f7b123;
+    position: absolute;
+    left: 15px;
+    top: 60px;
+    border-bottom-right-radius: 114%;
+    border-bottom-left-radius: 0;
+}
+
+.header .nav-menu .brand .type-wrap{
+	font-size: 18px;
+	/* float: right; */
+	position: relative;
+	margin-left: 324px;
+	color: #f7b123;
+	top: -40px;
+	font-style: italic;
+}
+.header .nav-menu .navbar-right li a{
+	 color: #fdb524;
+    font-size: 20px;
+    
+    margin-right: 36px;
+    transition: all .3s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.header .nav-menu .navbar-right li:hover a{
+	padding-top: 20px;
+
+}
+.header .nav-menu ul li{
+	display: inline-block;
+}
+.header .menu img{
+	width: 535px;
+    height: 419px;
+    margin-top: 29px;
+
+}
+.form form{
+	background: #fff !important;
+	padding: 20px;
+	border-radius: 4px;
+	border:10px solid #f7b123;
+	border-top-left-radius: 13%;
+    border-bottom-right-radius: 13%;
+    margin-top: -60px;
+	
+   
+}
+.form form input,
+.form form select{
+	margin-bottom: 20px;
+	text-align: center;
+}
+.form form i{
+    position: relative;
+    color:  #f7b123;
+    top: -50px;
+    left: 7px;
+}
+.form form .btn{
+	    background: #f7b123;
+    border: 1px solid #f7b123;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+.form form  label{
+	color: #fdb524;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*start typed style*/
+ /* code for animated blinking cursor */
+        .typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+          .typed-fade-out{
+            opacity: 0;
+            animation: 0;
+            transition: opacity .25s;
+        }
+        .footer{
+        background: #212121;
+        margin-top: 40px;
+        padding-top: 40px;
+      
+        }
+        .footer span,
+        .footer a{
+            color: #fff;
+            text-transform: uppercase;
+             font-family: 'Raleway', sans-serif;
+
+        }
+        .footer span{
+            margin: 0 453px;
+            
+        }
